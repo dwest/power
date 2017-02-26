@@ -1,0 +1,5 @@
+{:require          [power.core]
+ :init-fns         [power.core/main]
+ :externs          []
+ :compiler-options {:target :nodejs
+                    :asset-path "target/power.out/"}}
